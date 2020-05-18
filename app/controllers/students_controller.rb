@@ -1,5 +1,5 @@
 class StudentsController < ActionController::Base
    def index
-    @students = student.all
+    @students = Student.all
    end
   end
